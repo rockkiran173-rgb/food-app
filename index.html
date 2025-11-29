@@ -1,0 +1,325 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" >
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header class="container-fluid- ">
+        
+        <nav class="navbar navbar-expand-lg  ">
+            <div class="container">
+            <a href="" class="navbar-brand">
+                   <img src="asset/my icon.png" width="120px">
+        <strong>  E A T U P</strong>
+            </a>
+            <button class="navbar-toggler">
+                <span class="navbar-toggler-icon" data-bs-target="#mynav" data-bs-toggle="collapse"></span>
+            </button>
+
+            <div class="collapse navbar-collapse" id="mynav">
+            <ul class="navbar-nav ms-auto">
+                <li class="nav-item">
+                    <a href="#about" data-bs-toggle="about" class="nav-link"> About</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#" class="nav-link"> Home</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#serach" data-bs-toggle="offcanvas" class="nav-link">Serach
+        
+                    </a>
+                </li>
+                <li class="nav-item">
+                    <a href="#" class="nav-link">Account</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#" class="nav-link" >Menu</a>
+                </li>
+            </ul>
+            </div>
+            </div>
+        </nav>
+        
+    </header>
+    <!--offcanvas start-->
+    <div class="offcanvas offcanvas-end" id="serach" data-bs-backdrop="static">
+        <div class="offcanvas-header">
+            
+            <h4>
+                serach for more items
+            </h4>
+<button class="btn-close custom-close " data-bs-dismiss="offcanvas"></button>
+
+        </div>
+        
+        <div class="offcanvas-body ">
+            <input type="text" placeholder="serach">
+            <button type="submit" >serach</button>
+
+        </div>
+    </div>
+     <!--offcanvas end-->
+  
+    <section class="container-fluid p-3 text-bg-dark text-center">
+         <h2> ORDER NOW </h2>
+                <p>
+Get up to 50% new users to your resturent from siggy
+                </p>
+    </section>
+     <section class="container-fluid p-1 ">
+        <div class="carousel slide " data-bs-ride="carousel" id="mainslide">
+            <div class="carousel-inner">
+            
+                <div class="carousel-item active ">
+                    <div class="banner">
+                         <h1>UP TO 25% OFF</h1> <br>
+                         <p>FROM TFC RESTURENT</p>
+                         <button class="btn">ORDER NOW</button>
+                    </div>
+                </div >
+                  <div class="carousel-item " >
+                    <div class="banner-2">
+                        <h1>UP TO 50% OFF !</h1>
+                        <P> FROM KFC </P>
+                        <button class="btn">ORDER NOW</button>
+                    </div>
+                    
+                </div>
+                  <div class="carousel-item">
+                    <div class="banner-3">
+                         <h1> UP TO 50% OFF !</h1>
+                        <P>FROM BARKAS </P>
+                        <button class="btn">ORDER NOW</button>
+
+                    </div>
+                    
+                </div>
+                
+            </div>
+            <button class="carousel-control-prev" data-bs-target="#mainslide" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon"></span>
+            </button>
+             <button class="carousel-control-next" data-bs-target="#mainslide" data-bs-slide="next">
+                <span class="carousel-control-next-icon"></span>
+            </button>
+
+        </div>
+
+    
+    <section class="container p-5 text-center" id="about"  >
+        <div class="row"> 
+            <h1 class="text-center">About</h1>     
+<div class="col-lg-8 text-start">
+<h2>uses</h2>
+<p>Swiggy is a leading Indian online food ordering and delivery platform, but it also offers other services like Instamart
+     (grocery delivery) and Swiggy Genie (for various errands). 
+
+</p>
+ <h2> others</h2>
+    <p>The company utilizes a three-way marketplace model, connecting customers, restaurants, and delivery partners through its app. Swiggy also leverages technology like machine learning 
+        and AI to optimize its operations and enhance user experience. </p>
+
+</div>
+<div class="col-lg-4">
+    <img src="asset/kfc.avif" style="width: 250px; height:300px;"> 
+
+</div>
+</div>
+</section>
+<br>
+<section class=" container py-4 ">
+
+       <div class=" text-center mt-4 ">
+        <h2>Whats your mind ?</h2>
+     <ul class="image-list row  list-unstyled ">
+                <li class=" col-lg-4  mb-4">
+                    <a href="#" > <img src="asset/Poori1" alt="poori" class="w-50px"></a>
+                    
+                </li>
+                <li class=" col-lg-4  mb-4">
+                    <a href="#" >
+                        <img src="asset/Idli" alt="">
+                    </a>
+                </li>
+                <li class=" col-lg-4  mb-4 ">
+                    <a href="#" class="">
+                        <img src="asset/biryani" alt="">
+        
+                    </a>
+                </li>                    
+</ul>
+       </div>
+       </section>
+    </section>
+    <section class="container p-5 text-center category   ">
+        <div class="row ">
+            <div  class="col-md-6 col-lg-4 ">
+                <div class="card ">
+                    <div class="card-body ">
+                        <img src="asset/pizza.jpeg " class="bg-danger">
+                        <br> <br> <br>
+                        <h4 class="card-title">
+                            pizza
+                       </h4>
+                        <button class="btn" data-bs-target="#order" data-bs-toggle="modal">order now</button>
+
+                    </div>
+
+
+                </div>
+            </div>
+            <div  class="col-md-6 col-lg-4">
+                <div class="card">
+                    <div class="card-body">
+                        <img src="asset/burgar.jpeg" alt="">
+                        <h4 class="card-title">
+                            Burgar
+
+                       </h4>
+                        <button class="btn" data-bs-target="#order" data-bs-toggle="modal">order now</button>
+
+
+                    </div>
+
+                </div>
+            </div>
+            <div  class="col-md-6 col-lg-4">
+                <div class="card">
+                    <div class="card-body">
+                        <img src="asset/chicken.jpeg" alt="">
+                        <h4 class="card-title">
+                            biryani
+
+                       </h4>
+                        <button class="btn" data-bs-target="#order" data-bs-toggle="modal">order now</button>
+
+
+                    </div>
+
+                </div>
+            </div>
+              <div  class="col-md-6 col-lg-4">
+                <div class="card">
+                    <div class="card-body">
+                        <img src="asset/sandwhich.jpeg" alt="">
+                        <h4 class="card-title">
+                            order now 
+
+                       </h4>
+                        <button class="btn" data-bs-target="#order" data-bs-toggle="modal">order now</button>
+
+
+                    </div>
+
+                </div>
+            </div>
+              <div  class="col-md-6 col-lg-4">
+                <div class="card">
+                    <div class="card-body">
+                        <img src="asset/mocktail.jpeg" alt="">
+                        <h4 class="card-title">
+                            order now 
+
+                       </h4>
+                        <button class="btn" data-bs-target="#order" data-bs-toggle="modal">order now</button>
+
+
+                    </div>
+
+                </div>
+            </div>
+              <div  class="col-md-6 col-lg-4">
+                <div class="card">
+                    <div class="card-body">
+                        <img src="asset/download.jpeg" alt="">
+                        <h4 class="card-title">
+                            order now 
+
+                       </h4>
+                        <button class="btn" data-bs-target="#order" data-bs-toggle="modal">order now</button>
+
+
+                    </div>
+
+                </div>
+            </div>
+        </div>
+
+    </section>
+    <!--modal start-->
+    <div class="modal fade " id="order" data-bs-backdrop="static">
+    
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header ">
+                    <h4 class="text-center">
+                        book your order
+                        
+                    </h4>
+
+                  <button class="btn-close" data-bs-dismiss="modal"></button> 
+                </div>
+                 <div class=" modal-body">
+                    <form action="">
+                        <div class="form-floating mb-3">
+                            <input
+                                type="text"
+                                class="form-control"
+                                name="formId1"
+                                id="formId1"
+                                placeholder=""
+                            />
+                            <label for="formId1">Name</label>
+                        </div>
+                         <div class="form-floating mb-3">
+                            <input
+                                type="text"
+                                class="form-control"
+                                name="formId1"
+                                id="formId1"
+                                placeholder=""
+                            />
+                            <label for="formId1">mobile number</label>
+                        </div>
+                         <div class="form-floating mb-3">
+                            <input
+                                type="text"
+                                class="form-control"
+                                name="formId1"
+                                id="formId1"
+                                placeholder=""
+                            />
+                            <label for="formId1">Adrees</label>
+                        </div>
+                        
+                        
+                    </form>
+                 </div>
+                <div class=" modal-footer"></div>
+            
+                
+               
+            </div>
+
+        </div>
+
+    </div>
+    <!--modal ends-->
+    <section class="footer" >
+        <div class="row">
+            <div class="col-lg-4">
+                
+
+            </div>
+        </div>
+
+    </section>
+    
+</body>
+</html>
